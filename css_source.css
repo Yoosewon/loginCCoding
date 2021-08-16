@@ -1,0 +1,232 @@
+#wrap {
+  font: 12px Roboto, Arial, sans-serif;
+  background-color: #fff;
+  color: #fff;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top Screen */
+#top_screen {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  height: 70%;
+  width: 100%;
+}
+
+#main_screen {
+  background-color: black;
+  height: 100%;
+  width: 90%;
+}
+
+#main_screen_header {
+  display: flex;
+  margin-top: 10px;
+}
+
+#logos {
+  width: 100%;
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 5px;
+}
+
+#logo_icon {
+  align-items: center;
+  background-color: black;
+  color: red;
+}
+
+#word_logo {
+  font-size: large;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.opt_btns {
+  font-size: small;
+  font-weight: lighter;
+}
+
+#opt_button {
+  display: flex;
+  flex: auto;
+  flex-direction: row-reverse;
+  justify-self: flex-end;
+}
+
+#more_btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#video_screen {
+  display: flex;
+  justify-content: center;
+}
+
+/* Contents */
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 40%;
+  width: 100%;
+  /*border: 2px black solid;*/
+  margin-top: 5px;
+}
+
+/*하단 왼쪽화면 구성*/
+#container #c_left_side {
+  position: static;
+  align-self: flex-start;
+  height: 100%;
+  width: 40%;
+}
+
+#c_hash_tag {
+  width: 100%;
+  height: 7%;
+}
+
+.hashTag {
+  height: 100%;
+  color: cornflowerblue;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+#c_title {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#c_video_info {
+  margin-bottom: 10px;
+  color: black;
+}
+
+#c_exp_btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid darkgrey;
+}
+
+.exp_icons {
+  width: 28px;
+  height: 30px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#icon_like,
+#icon_report {
+  width: 37px;
+  height: 37px;
+}
+
+label {
+  color: black;
+}
+
+#c_chnl_inf {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+  border-bottom: 1px solid darkgrey;
+}
+
+#chl_title {
+  flex: auto;
+  margin-left: 20px;
+  color: black;
+  font-size: 18px;
+}
+
+#chl_sub_button {
+  justify-self: flex-end;
+  width: 80px;
+  height: 40px;
+  font-weight: bold;
+  color: red;
+}
+
+/*하단 가운데 구역*/
+#container #c_middle {
+  position: relative;
+  height: 100%;
+  width: 5%;
+}
+
+/*하단 오른쪽 구역*/
+#container #c_right_side {
+  position: relative;
+  align-self: flex-end;
+  height: 100%;
+  width: 40%;
+}
+
+#c_upNext {
+  width: 100%;
+  height: 7%;
+}
+
+#upNext {
+  height: 100%;
+  font-size: 13px;
+  color: gray;
+}
+
+#c_next_vid {
+  display: block;
+  height: 80%;
+  width: 100%;
+  align-items: flex-start;
+}
+
+#c_next_vid .nvido_info {
+  margin-top: 5px;
+  display: block;
+  color: gray;
+  font-size: 8px;
+}
+
+.next_videos {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.next_videos_title {
+  color: black;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.nvideo_opt_btns {
+  color: black;
+}
+
+button,
+.cursor :hover {
+  cursor: pointer;
+}
